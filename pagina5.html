@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beoordeel onze Fingerboard Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="rating-pagina">
+
+    <nav class="rating-navigatie">
+        <a href="index.html">Home</a>
+        <a href="pagina2.html">OPERA vs Tech Deck</a>
+        <a href="pagina3.html">Shuvit leren</a>
+        <a href="pagina6.html">🛹 Skatepark bouwen</a>
+    </nav>
+
+    <header class="rating-header">
+        <p class="rating-label">JOUW MENING TELT</p>
+        <h1>Rate onze website!</h1>
+        <p>
+            🛹 Help ons beter te worden.
+            Geef je mening over onze fingerboardwebsite!
+        </p>
+    </header>
+
+    <main class="rating-container">
+
+        <section class="rating-kaart">
+
+            <h2>⭐ Geef je rating</h2>
+            <p class="rating-uitleg">
+                Vul het formulier in en vertel ons wat je ervan vindt.
+            </p>
+
+            <form class="rating-formulier" action="#" method="get">
+
+                <div class="rating-veld">
+                    <label for="naam">Je naam <span>(optioneel)</span></label>
+                    <input
+                        type="text"
+                        id="naam"
+                        name="naam"
+                        placeholder="Hoe heet je?"
+                        autocomplete="name"
+                    >
+                </div>
+
+                <div class="rating-veld">
+                    <label for="rating">Hoeveel sterren geef je ons?</label>
+                    <select id="rating" name="rating" required>
+                        <option value="">-- Kies je rating --</option>
+                        <option value="1">⭐ 1/5 - Kan beter</option>
+                        <option value="2">⭐⭐ 2/5 - Matig</option>
+                        <option value="3">⭐⭐⭐ 3/5 - Goed</option>
+                        <option value="4">⭐⭐⭐⭐ 4/5 - Heel goed</option>
+                        <option value="5">⭐⭐⭐⭐⭐ 5/5 - Top!</option>
+                    </select>
+                </div>
+
+                <div class="rating-veld">
+                    <label for="favoriet">Wat is je favoriete pagina?</label>
+                    <select id="favoriet" name="favoriet" required>
+                        <option value="">-- Kies een pagina --</option>
+                        <option value="home">Home - Fingerboarding</option>
+                        <option value="merken">OPERA vs Tech Deck</option>
+                        <option value="shuvit">Shuvit leren</option>
+                    </select>
+                </div>
+
+                <div class="rating-veld">
+                    <label for="feedback">Wat vind je van de website?</label>
+                    <textarea
+                        id="feedback"
+                        name="feedback"
+                        rows="5"
+                        maxlength="1000"
+                        placeholder="Wat vind je goed? Wat kan beter?"
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="rating-knop">
+                    Verstuur mijn rating
+                </button>
+
+                <p class="rating-privacy">
+                    Je naam invullen is niet verplicht.
+                </p>
+
+            </form>
+        </section>
+
+        <p class="rating-afsluiter">
+            Bedankt om onze fingerboardcommunity te helpen! 💚
+        </p>
+
+    </main>
+
+</body>
+</html>
+

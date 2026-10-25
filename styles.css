@@ -1,0 +1,732 @@
+
+body {
+    background-color: #101820;
+    background-image: url("fingerboard.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #00d9ff;
+    font-size: 42px;
+}
+
+h2 {
+    color: #baff00;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 12px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+a {
+    display: inline-block;
+    background-color: #baff00;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #00d9ff;
+}
+.vergelijking {
+    color: #baff00;
+    text-align: center;
+}
+
+/* ===== ALLEEN PAGINA 3: SHUVIT ===== */
+
+body.trucjes-pagina {
+    background-color: #0b1018;
+    color: #f2f5f7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.8;
+}
+
+/* Hoofdtitel */
+.trucjes-pagina .trick-title {
+    color: #baff00;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 0 0 10px #789900;
+    margin: 20px auto 35px;
+    line-height: 1.3;
+}
+
+/* Introductie */
+.trucjes-pagina .intro {
+    max-width: 850px;
+    margin: 0 auto 35px;
+    padding: 22px;
+    background-color: #151e29;
+    border-left: 5px solid #baff00;
+    border-radius: 10px;
+    color: #e4edf3;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+/* Titels van de stappen */
+.trucjes-pagina .stap-title {
+    max-width: 850px;
+    margin: 30px auto 0;
+    padding: 16px 22px;
+    background-color: #142330;
+    border-left: 5px solid #00d9ff;
+    border-radius: 10px 10px 0 0;
+    color: #00d9ff;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+/* Tekst onder elke stap */
+.trucjes-pagina p {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px 22px;
+    background-color: #111820;
+    border-radius: 0 0 10px 10px;
+    color: #dce5eb;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+/* Links op pagina 3 */
+.trucjes-pagina a {
+    color: #00d9ff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Geselecteerde tekst */
+.trucjes-pagina ::selection {
+    background-color: #baff00;
+    color: #101010;
+}
+
+/* Mobiele schermen */
+@media (max-width: 600px) {
+    body.trucjes-pagina {
+        padding: 15px;
+    }
+
+    .trucjes-pagina .trick-title {
+        font-size: 36px;
+    }
+
+    .trucjes-pagina .intro {
+        font-size: 17px;
+        padding: 16px;
+    }
+
+    .trucjes-pagina .stap-title {
+        font-size: 23px;
+        padding: 14px 16px;
+    }
+
+    .trucjes-pagina p {
+        font-size: 16px;
+        padding: 16px;
+    }
+}
+
+/* ===== PAGINA 4: BOUW JE EIGEN FINGERBOARD ===== */
+
+body.bouw-pagina {
+    background-color: #0b1018;
+    color: #f2f5f7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.8;
+}
+
+.bouw-pagina .bouw-titel {
+    color: #baff00;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 0 0 10px #789900;
+    margin: 20px auto 35px;
+    line-height: 1.3;
+}
+
+.bouw-pagina .bouw-intro {
+    max-width: 850px;
+    margin: 0 auto 35px;
+    padding: 22px;
+    background-color: #151e29;
+    border-left: 5px solid #baff00;
+    border-radius: 10px;
+    color: #e4edf3;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.bouw-pagina .bouw-ondertitel {
+    max-width: 850px;
+    margin: 30px auto 0;
+    padding: 16px 22px;
+    background-color: #142330;
+    border-left: 5px solid #00d9ff;
+    border-radius: 10px 10px 0 0;
+    color: #00d9ff;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.bouw-pagina p:not(.bouw-intro) {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px 22px;
+    background-color: #111820;
+    border-radius: 0 0 10px 10px;
+    color: #dce5eb;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+@media (max-width: 600px) {
+    body.bouw-pagina {
+        padding: 15px;
+    }
+
+    .bouw-pagina .bouw-titel {
+        font-size: 36px;
+    }
+
+    .bouw-pagina .bouw-intro {
+        font-size: 17px;
+        padding: 16px;
+    }
+
+    .bouw-pagina .bouw-ondertitel {
+        font-size: 23px;
+        padding: 14px 16px;
+    }
+
+    .bouw-pagina p:not(.bouw-intro) {
+        font-size: 16px;
+        padding: 16px;
+    }
+}
+
+/* ===== NAVIGATIE LINKS ===== */
+
+.navigatie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px auto 35px;
+
+
+/* ==================================
+   PAGINA 5 - RATINGFORMULIER
+   ================================== */
+
+body.rating-pagina {
+    margin: 0;
+    padding: 24px;
+    background: #0b1018;
+    color: #f2f5f7;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+.rating-pagina * {
+    box-sizing: border-box;
+}
+
+/* Navigatie */
+.rating-pagina .rating-navigatie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0 auto 40px;
+}
+
+.rating-pagina .rating-navigatie a {
+    display: inline-block;
+    padding: 10px 17px;
+    background: #142330;
+    color: #00d9ff;
+    border: 1px solid #00d9ff;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Introductie bovenaan */
+.rating-pagina .rating-header {
+    max-width: 800px;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+
+.rating-pagina .rating-label {
+    display: inline-block;
+    padding: 6px 14px;
+    color: #baff00;
+    border: 1px solid #baff00;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.rating-pagina .rating-header h1 {
+    margin: 15px 0;
+    color: #baff00;
+    font-size: 46px;
+    line-height: 1.2;
+    text-shadow: 0 0 12px #536e00;
+}
+
+.rating-pagina .rating-header > p:last-child {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #c7d3dc;
+    font-size: 18px;
+}
+
+/* Buitenste kader */
+.rating-pagina .rating-container {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* Formulierkaart */
+.rating-pagina .rating-kaart {
+    padding: 32px;
+    background: #121c27;
+    border: 2px solid #00d9ff;
+    border-radius: 18px;
+    box-shadow: 0 0 25px rgba(0, 217, 255, 0.10);
+}
+
+.rating-pagina .rating-kaart h2 {
+    margin: 0 0 8px;
+    color: #00d9ff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.rating-pagina .rating-uitleg {
+    margin: 0 0 28px;
+    color: #b8c7d2;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Formuliervelden */
+.rating-pagina .rating-veld {
+    margin-bottom: 23px;
+}
+
+.rating-pagina .rating-formulier label {
+    display: block;
+    margin-bottom: 9px;
+    color: #baff00;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rating-pagina .rating-formulier label span {
+    color: #a9b5bf;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.rating-pagina .rating-formulier input,
+.rating-pagina .rating-formulier select,
+.rating-pagina .rating-formulier textarea {
+    display: block;
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid #34495a;
+    border-radius: 8px;
+    background: #0b1018;
+    color: #f2f5f7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.rating-pagina .rating-formulier textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.rating-pagina .rating-formulier input::placeholder,
+.rating-pagina .rating-formulier textarea::placeholder {
+    color: #8997a4;
+}
+
+/* Verzendknop: geen hover-effect */
+.rating-pagina .rating-knop {
+    display: block;
+    width: 100%;
+    margin-top: 28px;
+    padding: 15px;
+    background: #baff00;
+    color: #101510;
+    border: none;
+    border-radius: 9px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.rating-pagina .rating-privacy {
+    margin: 15px 0 0;
+    color: #9aaab7;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Afsluitende tekst */
+.rating-pagina .rating-afsluiter {
+    margin: 25px auto 0;
+    color: #baff00;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Mobiele weergave */
+@media (max-width: 600px) {
+    body.rating-pagina {
+        padding: 15px;
+    }
+
+    .rating-pagina .rating-header h1 {
+        font-size: 34px;
+    }
+
+    .rating-pagina .rating-header > p:last-child {
+        font-size: 16px;
+    }
+
+    .rating-pagina .rating-kaart {
+        padding: 20px;
+    }
+
+    .rating-pagina .rating-kaart h2 {
+        font-size: 25px;
+    }
+
+    .rating-pagina .rating-navigatie {
+        gap: 8px;
+        margin-bottom: 30px;
+    }
+
+    .rating-pagina .rating-navigatie a {
+        padding: 9px 11px;
+        font-size: 12px;
+    }
+}
+/* ============================= */
+/* PAGINA 6 - SKATEPARK BOUWEN   */
+/* ============================= */
+
+.skatepark-pagina {
+    background-color: #101010;
+    color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.7;
+}
+
+.skatepark-pagina * {
+    box-sizing: border-box;
+}
+
+.skatepark-header {
+    background-color: #181818;
+    border-bottom: 3px solid #baff00;
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.skatepark-header h1 {
+    color: #baff00;
+    font-size: 36px;
+    margin: 0 0 12px;
+}
+
+.skatepark-header p {
+    color: #00d9ff;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+.skatepark-navigatie {
+    background-color: #202020;
+    padding: 16px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    border-bottom: 1px solid #333;
+}
+
+.skatepark-navigatie a {
+    color: #baff00;
+    text-decoration: none;
+    border: 1px solid #baff00;
+    border-radius: 6px;
+    padding: 9px 15px;
+    font-weight: bold;
+}
+
+.skatepark-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 35px auto;
+}
+
+.skatepark-intro {
+    background-color: #191919;
+    border-left: 5px solid #00d9ff;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 35px;
+}
+
+.skatepark-intro h2,
+.skatepark-sectie h2 {
+    color: #baff00;
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 27px;
+}
+
+.skatepark-sectie {
+    background-color: #191919;
+    border: 1px solid #303030;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.skatepark-kaarten {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.skatepark-kaart {
+    background-color: #242424;
+    border: 1px solid #444;
+    border-top: 3px solid #00d9ff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.skatepark-kaart h3 {
+    color: #00d9ff;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.goedkoop-label {
+    color: #baff00;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.bouw-stap {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #242424;
+    border-radius: 8px;
+    border-left: 3px solid #00d9ff;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.stap-nummer {
+    color: #101010;
+    background-color: #baff00;
+    font-size: 19px;
+    font-weight: bold;
+    min-width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.bouw-stap h3 {
+    color: #00d9ff;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 21px;
+}
+
+.bouw-stap p:last-child {
+    margin-bottom: 0;
+}
+
+.bespaar-lijst {
+    padding-left: 25px;
+}
+
+.bespaar-lijst li {
+    margin-bottom: 10px;
+}
+
+.bespaar-lijst li::marker {
+    color: #baff00;
+}
+
+.budget-tip {
+    background-color: #242424;
+    border-left: 4px solid #baff00;
+    padding: 18px;
+    border-radius: 6px;
+    margin-top: 22px;
+}
+
+.winkel-lijst {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.winkel-kaart {
+    background-color: #242424;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.winkel-kaart h3 {
+    color: #00d9ff;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.winkel-kaart p {
+    flex-grow: 1;
+}
+
+.winkel-kaart a {
+    display: inline-block;
+    color: #baff00;
+    text-decoration: none;
+    border: 1px solid #baff00;
+    border-radius: 5px;
+    padding: 10px 12px;
+    margin-top: 10px;
+}
+
+.winkel-opmerking {
+    color: #c5c5c5;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.skatepark-einde {
+    background-color: #191919;
+    border: 2px solid #baff00;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 35px;
+}
+
+.skatepark-einde h2 {
+    color: #baff00;
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.terug-knop {
+    display: inline-block;
+    background-color: #baff00;
+    color: #101010;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-top: 12px;
+}
+
+.skatepark-footer {
+    background-color: #181818;
+    border-top: 2px solid #00d9ff;
+    color: #baff00;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Aanpassing voor gsm en kleine schermen */
+@media (max-width: 650px) {
+    .skatepark-header h1 {
+        font-size: 28px;
+    }
+
+    .skatepark-header p {
+        font-size: 16px;
+    }
+
+    .skatepark-container {
+        width: 94%;
+        margin-top: 20px;
+    }
+
+    .skatepark-sectie,
+    .skatepark-intro {
+        padding: 18px;
+    }
+
+    .skatepark-kaarten,
+    .winkel-lijst {
+        grid-template-columns: 1fr;
+    }
+
+    .bouw-stap {
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .stap-nummer {
+        min-width: 38px;
+        height: 38px;
+        font-size: 16px;
+    }
+
+    .skatepark-navigatie {
+        gap: 8px;
+    }
+
+    .skatepark-navigatie a {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+}
